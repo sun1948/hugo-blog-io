@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://sunzhaowei.site/posts/" />
-<meta property="og:updated_time" content="2020-03-21T14:38:44+08:00" />
+<meta property="og:updated_time" content="2020-03-23T10:02:22+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -96,6 +96,30 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
+      <a href="http://sunzhaowei.site/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" class="link black dim">
+        HTML常用标签
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      一、a 标签的用法 a标签功能蛮强大的，主要依托href/target属性实现，其中href有4类取值，target有5种取值。
+另外download的作用不是打开页面而是下载页面，问题在于不是所有浏览器都支持（尤其手机）；rel=noopener我暂时不清楚。
+href属性  跳转到外部页面 href=&rdquo; &ldquo;,可以填  网址：不用写完整，直接//google.com即可 其他页面：绝对/相对路径均可。注意：根目录/表示http-sever建立的目录。   跳转到内部锚点  href=&rdquo;#&quot;,跳转到页面顶部 href=&rdquo;#xxx&rdquo;,调转到id=xxx的元素   跳转到电话、邮件  href=&quot;mailto:xxx@xxx.com&rdquo;,跳转$$到邮箱 href=&quot;tel:xxxxxxx&rdquo;,跳转到电话   伪协议  href=&quot;javascript:xxx;&quot;，当xxx为空时，可以实现点击a标签啥都不干    target属性 页面跳转的目标，4+1，内置+程序员命名
+ 默认_self 当前页面下跳转 _blank 跳转到空白页面 _top 最上层页面下跳转 _parent 父级页面下跳转 window的name，iframe的name  二、img 标签的用法 作用：是发送get请求展示图片
+属性如下：
+ src=&quot;图片路径&rdquo; 绝对/相对路径均可 width、height 设置宽高（此处不用加单位px），设置一个另一个会自适应； 在css中设置max-width：100%，可实现响应式布局 alt=“xxx”，可替代的，图片加载失败后的描述  事件：onload、onerror，失败时可以展示图片
+三、table 标签的用法 作用：绘制表格 样式：table-layout: fixed/auto,均匀分布/根据内容调整；
+border-collapse: collapse，border-spacing: 0, 二者实现表格内部间隙0，初始化会使用
+相关标签：thead\tbody\tfoot,tr\th\td
+其他感想 html的重要标签很多，表单form、输入类标签input、select+option、textarea、label、音视频标签video、audio、canvas、svg(兼容性要查文档)
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
       <a href="http://sunzhaowei.site/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="link black dim">
         如何用hugo搭建个人博客（for mac）
       </a>
@@ -123,7 +147,7 @@
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      我的博客开通了  第一种方式  第二种方式  希望我能写出好的内容给大家看!
+      我的博客开通了  第一种方式：可以上传图片，但在vscode无法预览  第二种方式：不可上传图片，但可以在vscode预览  希望我能写出好的内容给大家看!
     </div>
   </div>
 </div>

@@ -6,10 +6,28 @@
     <description>Recent content on 伟伟的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 21 Mar 2020 14:38:44 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2020 10:02:22 +0800</lastBuildDate>
     
 	<atom:link href="http://sunzhaowei.site/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTML常用标签</title>
+      <link>http://sunzhaowei.site/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Mon, 23 Mar 2020 10:02:22 +0800</pubDate>
+      
+      <guid>http://sunzhaowei.site/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <description>一、a 标签的用法 a标签功能蛮强大的，主要依托href/target属性实现，其中href有4类取值，target有5种取值。
+另外download的作用不是打开页面而是下载页面，问题在于不是所有浏览器都支持（尤其手机）；rel=noopener我暂时不清楚。
+href属性  跳转到外部页面 href=&amp;rdquo; &amp;ldquo;,可以填  网址：不用写完整，直接//google.com即可 其他页面：绝对/相对路径均可。注意：根目录/表示http-sever建立的目录。   跳转到内部锚点  href=&amp;rdquo;#&amp;quot;,跳转到页面顶部 href=&amp;rdquo;#xxx&amp;rdquo;,调转到id=xxx的元素   跳转到电话、邮件  href=&amp;quot;mailto:xxx@xxx.com&amp;rdquo;,跳转$$到邮箱 href=&amp;quot;tel:xxxxxxx&amp;rdquo;,跳转到电话   伪协议  href=&amp;quot;javascript:xxx;&amp;quot;，当xxx为空时，可以实现点击a标签啥都不干    target属性 页面跳转的目标，4+1，内置+程序员命名
+ 默认_self 当前页面下跳转 _blank 跳转到空白页面 _top 最上层页面下跳转 _parent 父级页面下跳转 window的name，iframe的name  二、img 标签的用法 作用：是发送get请求展示图片
+属性如下：
+ src=&amp;quot;图片路径&amp;rdquo; 绝对/相对路径均可 width、height 设置宽高（此处不用加单位px），设置一个另一个会自适应； 在css中设置max-width：100%，可实现响应式布局 alt=“xxx”，可替代的，图片加载失败后的描述  事件：onload、onerror，失败时可以展示图片
+三、table 标签的用法 作用：绘制表格 样式：table-layout: fixed/auto,均匀分布/根据内容调整；
+border-collapse: collapse，border-spacing: 0, 二者实现表格内部间隙0，初始化会使用
+相关标签：thead\tbody\tfoot,tr\th\td
+其他感想 html的重要标签很多，表单form、输入类标签input、select+option、textarea、label、音视频标签video、audio、canvas、svg(兼容性要查文档)</description>
+    </item>
     
     <item>
       <title>如何用hugo搭建个人博客（for mac）</title>
@@ -33,7 +51,7 @@
       <pubDate>Sat, 21 Mar 2020 13:35:08 +0800</pubDate>
       
       <guid>http://sunzhaowei.site/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>我的博客开通了  第一种方式  第二种方式  希望我能写出好的内容给大家看!</description>
+      <description>我的博客开通了  第一种方式：可以上传图片，但在vscode无法预览  第二种方式：不可上传图片，但可以在vscode预览  希望我能写出好的内容给大家看!</description>
     </item>
     
   </channel>
